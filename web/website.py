@@ -150,10 +150,6 @@ html = """
       <img src="https://cdn.myanimelist.net/images/anime/1223/126488.jpg" alt="Tokyo Revengers">
       <h3>Tokyo Revengers</h3>
     </a>
-    <a href="spy-x-family.html" class="anime-card">
-      <img src="https://cdn.myanimelist.net/images/anime/1517/109840.jpg" alt="Spy x Family">
-      <h3>Spy x Family</h3>
-    </a>
     <a href="solo-leveling.html" class="anime-card">
       <img src="https://static.wikia.nocookie.net/solo-leveling/images/7/72/Solo_Leveling_Logo.png" alt="Solo Leveling">
       <h3>Solo Leveling</h3>

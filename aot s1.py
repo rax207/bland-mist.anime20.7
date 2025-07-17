@@ -23,7 +23,7 @@ html = """
       margin-bottom: 20px;
     }
     video {
-      width: 100%;
+      width: 200%;
       max-width: 480px;
       border: none;
       border-radius: 8px;
@@ -73,10 +73,13 @@ html = """
   <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan" />
   <p>Watch the epic story of humanity vs titans!</p>
 
-  <video id="videoPlayer" controls>
-    <source src="ep1.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+    <!-- MP4, WebM, and Ogg -->
+
+    <video controls autoplay muted src="01 To You, in 2000 Years.mp4" width="700">
+        <source src="01 To You, in 2000 Years.mp4">
+        <source src="01 To You, in 2000 Years.WebM">
+        This browser dose not support HTML5 audio
+    </video>
 
   <div class="episode-list">
     <a class="episode-button" onclick="loadEpisode('ep1')">Episode 1: To You, in 2000 Years</a>
@@ -99,7 +102,7 @@ html = """
 """
 
 file_name = "attack-on-titan.html"
-with open(file_name, "C:\Users\Tanvir\Downloads", encoding="utf-8") as f:
+with open(file_name, "w", encoding="utf-8") as f:
     f.write(html)
 
 webbrowser.open(f"file://{os.path.abspath(file_name)}")

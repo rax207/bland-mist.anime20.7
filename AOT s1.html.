@@ -83,13 +83,14 @@ html = """
 
 
   <video id="videoPlayer" controls>
-    <source src="ep1.mp4" type="video/mp4" />
+    <source src="01 To You, in 2000 Years.mp4" type="video/mp4" />
+    <source src="That Day.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
   <div class="episode-list">
-    <a class="episode-button" onclick="loadEpisode('ep1')">Episode 1: To You, in 2000 Years</a>
-    <a class="episode-button" onclick="loadEpisode('ep2')">Episode 2: That Day</a>
+    <a class="episode-button" onclick="loadEpisode('01 To You, in 2000 Years.mp4')">Episode 1: To You, in 2000 Years</a>
+    <a class="episode-button" onclick="loadEpisode('That Day.mp4')">Episode 2: That Day</a>
     <a class="episode-button" onclick="loadEpisode('ep3')">Episode 3: A Dim Light Amid Despair</a>
   </div>
 
